@@ -23,7 +23,7 @@ There is only one route: `http://<ip>:<port>/api/channel?channelId=<your_channel
 The `channelId` query string should equal your channel id.
 
 There are also optional query strings like: `order` and `maxResults`. 
-These are not needed by default. The default values are `maxResults` and `4` respectively.
+These are not needed by default. The default values are `date` and `4` respectively.
 
 You can change the `order` query string to = `viewCount` to order videos by view count (highest to lowest).
 
